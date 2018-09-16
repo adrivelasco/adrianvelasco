@@ -1,0 +1,16 @@
+:root {
+  /* Typography */
+  --font-system: 'Oxygen', 'Helvetica', 'Arial', sans-serif;
+  --font-heading: 'Rufina', -apple-syste, 'Helvetica', 'Arial', sans-serif;
+
+  /* Colors */
+  --color-primary: #523aee;
+
+  /* Motion */
+  --transition-time: 0.2s ease-in;
+
+  /* Breakpoints */
+  --breakpoint-lg: 1024px;
+  --breakpoint-md: 768px;
+  --breakpoint-sm: 480px;
+}

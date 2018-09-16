@@ -5,17 +5,16 @@ import { DevServerConfig } from '@stencil/core/dist/declarations';
 export const config: Config = {
   namespace: 'adrianvelasco',
   srcDir: 'client',
+  globalStyle: 'client/styles/global.css',
   plugins: [
     postcss({
       plugins: [
         require('postcss-global-import')(),
         require('postcss-import')(),
-        require('postcss-custom-properties')(),
         require('postcss-custom-media')(),
         require('postcss-media-minmax')(),
         require('postcss-custom-selectors')(),
         require('postcss-calc')(),
-        require('postcss-advanced-variables')(),
         require('postcss-nesting')(),
         require('postcss-nested')(),
         require('postcss-color-function')(),
@@ -24,7 +23,6 @@ export const config: Config = {
         require('postcss-selector-matches')(),
         require('postcss-selector-not')(),
         require('postcss-flexbugs-fixes')(),
-        require('postcss-simple-vars')(),
         require('postcss-mixins')(),
         require('postcss-extend')(),
         require('autoprefixer')({
