@@ -1,0 +1,6 @@
+client/*
+dist/*
+www/*
+node_modules/*
+build/*
+docs/
