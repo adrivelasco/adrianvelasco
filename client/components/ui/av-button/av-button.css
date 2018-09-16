@@ -1,0 +1,13 @@
+av-button {
+  .av-button__root {
+    background: var(--color-primary);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    height: 44px;
+    outline: 0;
+    padding: 0 20px;
+    user-select: none;
+  }
+}

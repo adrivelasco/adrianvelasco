@@ -1,0 +1,17 @@
+/**
+ * Custom Variables for element "av-appbar"
+ */
+
+:root {
+  --av-appbar-z-index: 50;
+  --av-appbar-background-color: #fff;
+  --av-appbar-color: rgba(0, 0, 0, 0.87);
+  --av-appbar-dense-height: 48px;
+  --av-appbar-height: calc(var(--av-appbar-dense-height) + 16px);
+  --av-appbar-min-height: 47px;
+  --av-appbar-dark-background-color: #323232;
+  --av-appbar-title-font-size: 1.25rem;
+  --av-appbar-title-font-weight: 500;
+  --av-appbar-title-line-height: 2rem;
+  --av-appbar-title-letter-spacing: 0.0125rem;
+}

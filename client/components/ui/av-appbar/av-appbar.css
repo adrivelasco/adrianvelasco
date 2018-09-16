@@ -1,0 +1,36 @@
+@import './variables.css';
+
+av-appbar.av-appbar {
+  align-items: center;
+  background-color: var(--av-appbar-background-color);
+  color: var(--av-appbar-color);
+  display: flex;
+  height: var(--av-appbar-height);
+  margin: 0;
+  position: relative;
+  width: 100%;
+  will-change: padding-left, padding-right;
+  z-index: var(--av-appbar-z-index);
+
+  &.av-appbar--absolute {
+    position: absolute;
+  }
+
+  &.av-appbar--fixed {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+
+  .av-appbar__root {
+    position: relative;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .av-appbar__content {
+    position: relative;
+    width: 100%;
+  }
+}
