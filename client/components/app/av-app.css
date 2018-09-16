@@ -1,0 +1,58 @@
+av-app {
+  .asd {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .logo {
+    border-right: 0;
+    border-top: 0;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+    padding: 0 10px 0 7px;
+    position: relative;
+    transition: all var(--transition-time);
+    user-select: none;
+
+    h3 {
+      color: inherit;
+      letter-spacing: -0.1rem;
+    }
+  }
+
+  .left {
+    align-items: center;
+    display: flex;
+  }
+
+  .menu {
+    margin-left: 1rem;
+    position: relative;
+
+    ul {
+      display: flex;
+      position: relative;
+
+      li {
+        position: relative;
+      }
+
+      li a {
+        display: block;
+        font-weight: 400;
+        padding: 0.5rem 1rem;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: all var(--transition-time);
+
+        &:hover {
+          background: rgba(0, 0, 0, 0.02);
+        }
+      }
+    }
+  }
+}
