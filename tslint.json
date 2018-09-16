@@ -1,0 +1,90 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "./client/components.d.ts",
+      "./client/**/*.d.ts"
+    ]
+  },
+  "rules": {
+    "no-string-literal": true,
+    "prefer-const": true,
+    "whitespace": [
+      true,
+      "check-module",
+      "check-branch",
+      "check-typecast"
+    ],
+    "interface-name": false,
+    "member-ordering": false,
+    "member-access": false,
+    "max-line-length": {
+      "options": [
+        120
+      ]
+    },
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "trailing-comma": false,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ],
+    "no-var-requires": false,
+    "no-empty-interface": true,
+    "no-any": true,
+    "new-parens": true,
+    "no-arg": true,
+    "object-literal-sort-keys": false,
+    "no-bitwise": true,
+    "no-consecutive-blank-lines": false,
+    "object-literal-shorthand": false,
+    "no-console": false,
+    "ordered-imports": false,
+    "variable-name": [
+      true,
+      "allow-leading-underscore"
+    ],
+    "jsx-key": true,
+    "jsx-space-before-trailing-slash": true,
+    "jsx-alignment": true,
+    "jsx-ban-props": false,
+    "jsx-boolean-value": true,
+    "jsx-curly-spacing": [
+      true,
+      "never"
+    ],
+    "jsx-no-bind": true,
+    "jsx-no-lambda": true,
+    "jsx-no-multiline-js": false,
+    "jsx-no-string-ref": true,
+    "jsx-use-translation-function": false,
+    "jsx-self-close": true,
+    "jsx-wrap-multiline": true
+  },
+  "jsRules": {
+    "max-line-length": {
+      "options": [
+        120
+      ]
+    }
+  }
+}

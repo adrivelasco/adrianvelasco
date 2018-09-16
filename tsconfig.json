@@ -1,0 +1,28 @@
+{
+  "include": [
+    "client"
+  ],
+  "exclude": [
+    "docs",
+    "server",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es2015",
+      "esnext.asynciterable"
+    ],
+    "moduleResolution": "node",
+    "module": "es2015",
+    "target": "es6",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "react",
+    "jsxFactory": "h"
+  }
+}
